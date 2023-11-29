@@ -7,6 +7,9 @@
           <mappings>
             <mapping deploy="/Gomoku/MyGomoku" local="$PROJECT_DIR$" web="/" />
           </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
+          </excludedPaths>
         </serverdata>
       </paths>
       <paths name="Windows">
